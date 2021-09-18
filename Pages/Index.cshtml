@@ -14,6 +14,13 @@
 
 <div class="pb-5">
     <div class="container">
+       <p class="text-center tipo">
+           @foreach (var tipo in ViewBag.Tipos)
+           {
+               <a asp-page="Index" asp-route-Tipo="@tipo" class="btn tipo-@tipo mr-2">@tipo</a>
+           }
+           <a asp-page="Index" class="btn btn-secondary">Ver todos</a>
+       </p>     
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
             <!--Cards-->
             @foreach (var pokemon in Model.ListaPokemon)
@@ -28,7 +35,7 @@
                             <div class="tipo mt-3">
                                 @foreach (var tipo in pokemon.Tipo)
                                 {
-                                    <a href="#" class="btn btn-sm tipo-@tipo">@tipo</a>
+                                    <a asp-page="/Index" asp-route-Tipo="@tipo" class="btn btn-sm tipo-@tipo">@tipo</a>
                                 }                                                                
                             </div>
                         </div>

@@ -4,6 +4,8 @@ using Pokedex.Classes;
 using System.Collections.Generic;
 using System.Text.Json;
 using Microsoft.AspNetCore.Http;
+using System.IO;
+using System.Linq;
 
 namespace Pokedex.Pages
 {
@@ -17,17 +19,26 @@ namespace Pokedex.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public void OnGet(string Tipo)
         {
-            if (string.IsNullOrEmpty(HttpContext.Session.GetString("Pokemons"))){
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("Pokemons")))
+            {
                 PopularLista();
             }
-            ListaPokemon = JsonSerializer.Deserialize<List<Pokemon>>(HttpContext.Session.GetString("Pokemons"));
+            var pokemons = JsonSerializer.Deserialize<List<Pokemon>>(HttpContext.Session.GetString("Pokemons"));
+            var tipos = pokemons.SelectMany(pokemons => pokemons.Tipo).Distinct().ToList();
+            tipos.Sort();
+            ViewData["Tipos"] = tipos;
+            ListaPokemon = string.IsNullOrEmpty(Tipo)? pokemons: pokemons.Where(pokemons=> pokemons.Tipo.Contains(Tipo)).ToList();
         }
 
         public void PopularLista(){
-            var pokemons = new List<Pokemon>();
-            HttpContext.Session.SetString("Pokemons", JsonSerializer.Serialize(pokemons));
+            
+            using (StreamReader leitor = new StreamReader(@"Dados\dados.json"))
+            {
+                string dados = leitor.ReadToEnd();
+                HttpContext.Session.SetString("Pokemons", dados);
+            }                      
         }
     }
 }

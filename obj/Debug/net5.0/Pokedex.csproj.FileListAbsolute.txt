@@ -356,3 +356,4 @@ C:\ProjetosWeb\Pokedex\Pokedex\obj\Debug\net5.0\ref\Pokedex.dll
 C:\ProjetosWeb\Pokedex\Pokedex\obj\Debug\net5.0\Pokedex.pdb
 C:\ProjetosWeb\Pokedex\Pokedex\obj\Debug\net5.0\Pokedex.genruntimeconfig.cache
 C:\ProjetosWeb\Pokedex\Pokedex\obj\Debug\net5.0\Razor\Pages\Pokemon.cshtml.g.cs
+C:\ProjetosWeb\Pokedex\Pokedex\bin\Debug\net5.0\Dados\dados.json
