@@ -15619,6 +15619,11 @@
   "RootNamespace": "Pokedex",
   "Documents": [
     {
+      "FilePath": "c:\\ProjetosWeb\\Pokedex\\Pokedex\\Pages\\Pokemon.cshtml",
+      "TargetPath": "Pages\\Pokemon.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ProjetosWeb\\Pokedex\\Pokedex\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"

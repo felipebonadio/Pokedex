@@ -4,7 +4,38 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<section class="text-center container">
+    <div class="row py-md-5 py-sm-3">
+        <div class="col-lg-6 col-mg-8 mx-auto">
+            <h1 class="fw-light"> POKEDÉX</h1>
+        </div>
+    </div>
+</section>
+
+<div class="pb-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+            <!--Cards-->
+            @foreach (var pokemon in Model.ListaPokemon)
+            {           
+            <div class="col">
+                <div class="card shadow-sm">
+                    <a asp-page="Pokemon" asp-route-numero="@pokemon.Numero">
+                        <img src="@Url.Content(pokemon.Imagem)" class="card-img-top" alt="@pokemon.Nome">
+                        <div class="card-body">
+                            <p>Nº @pokemon.Numero</p>
+                            <h4 class="card-title">@pokemon.Nome</h4>
+                            <div class="tipo mt-3">
+                                @foreach (var tipo in pokemon.Tipo)
+                                {
+                                    <a href="#" class="btn btn-sm tipo-@tipo">@tipo</a>
+                                }                                                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
 </div>
