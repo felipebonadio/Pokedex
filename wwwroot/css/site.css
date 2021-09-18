@@ -1,71 +1,123 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿.card a{
+  text-decoration: none;
+  color: black;
 }
 
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+.card-img{
+  background-color: lightgray;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.card:hover{
+border: 3px solid red;
+transform: scale(1.2);
+transition: 1s;
+z-index: 1000;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.tipo a{
+  color: white;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.tipo a:hover{
+color: white;
+opacity: 0.80;
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+.tipo-Normal{
+  background-color: #aa9;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.tipo-Fogo{
+  background-color: #f42;
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+.tipo-Agua{
+  background-color: #39f;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+.tipo-Eletrico{
+  background-color: #fc3;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+.tipo-Planta{
+  background-color: #7c5;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+
+.tipo-Gelo{
+  background-color: #6cf;
+}
+
+.tipo-Lutador{
+  background-color: #b54;
+}
+
+.tipo-Venenoso{
+  background-color: #a59;
+}
+
+.tipo-Terra{
+  background-color: #db5;
+}
+
+.tipo-Voador{
+  background-color: #89f;
+}
+
+.tipo-Psiquico{
+  background-color: #f59;
+}
+
+.tipo-Inseto{
+  background-color: #ab2;
+}
+
+.tipo-Pedra{
+  background-color: #ba6;
+}
+
+.tipo-Fantasma{
+  background-color: #66b;
+}
+
+.tipo-Dragao{
+  background-color: #76e;
+}
+
+.tipo-Noturno{
+  background-color: #754;
+}
+
+.tipo-Metalico{
+  background-color: #aab;
+}
+
+.tipo-Fada{
+  background-color: #e9e;
+}
+
+label{
+  font-size: 20px;
+}
+
+.titulo{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+hr{
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-outline-dark{
+  height: 75px;
+  display: inline-flex;
+  align-items: center;
+}
+
+footer a{
+  color: red;
 }

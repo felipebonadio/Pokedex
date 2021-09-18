@@ -19,35 +19,58 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="collapse bg-danger" id="navbarHeader">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Pokedex</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 my-4">
+                        <h4 class="text-white">Sobre</h4>
+                        <p class="text-white">
+                            Projeto criado para demosntrar a criação de páginas Web com Razor Pages e .Net5.
+                            Inclui leitura e deserialização de arquivos Json, inclusão e recuperação de dados em sessão.
+                            Criação de páginas dinâmicas.
+                        </p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contatos</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.linkedin.com/in/felipe-chagas-bonadio/" target="_blank" class="text-white">Linkedin</a></li>
+                            <li><a href="mailto:febonadio@gmail.com" class="text-white">Email</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
+        <div class="navbar navbar-dark bg-danger shadow-sm">
+            <div class="container">
+                <a asp-page="Index" class="navbar-brand d-flex align-items-center">
+                    <img src="~/img/favicons/favicon-32x32.png" alt="Pokedex" class="me-2">&nbsp;
+                    <strong>POKEDÉX</strong>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="py-5">
         <div class="container">
-            &copy; 2021 - Pokedex - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <div class="row">
+                <div class="col">
+                    <p class="mb-1">Pokedéx - Versão Felipe</p>
+                    <p class="mb-0">Desenvolvido nas aulas de Programação Web</p>
+                </div>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                    </svg>
+                </a>
+            </div>
         </div>
     </footer>
 
