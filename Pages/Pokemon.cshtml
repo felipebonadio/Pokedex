@@ -29,10 +29,6 @@
             <img class="img-fluid" src="@Url.Content(Model.Pokemon.Imagem)" alt="@Model.Pokemon.Nome">
         </div>
         <div class="col-lg-6">
-            <label class="mt-5 text-justify">@Model.Pokemon.Descricao </label>
-            <hr>
-            <label class="titulo w-25">Categoria</label><label>@Model.Pokemon.Especie</label>
-            <hr>
             <label class="titulo w-25">Altura</label><label>@Model.Pokemon.Altura</label>
             <hr>
             <label class="titulo w-25">Peso</label><label>@Model.Pokemon.Peso</label>
@@ -45,6 +41,15 @@
                      <a asp-page="/Index" asp-route-Tipo="@tipo" class="btn btn-sm tipo-@tipo">@tipo</a>
                 }
             </div>
+            <hr>
+            <div class="tipo mt-2">
+                <label class="titulo w-25">Fraqueza</label>
+                @foreach (var fraqueza in Model.Pokemon.Fraqueza)
+                {
+                     <a asp-page="/Index" asp-route-Fraqueza="@fraqueza" class="btn btn-sm tipo-@fraqueza">@fraqueza</a>
+                }
+            </div>
+            <hr>
         </div>
     </div>
 </div>

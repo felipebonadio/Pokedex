@@ -1,0 +1,1361 @@
+[
+  {
+    "Numero": 1,
+    "Nome": "Bulbasaur",
+    "Imagem": "img/pokemon/001.png",
+    "Altura": "0.71 m",
+    "Peso": "6.9 kg",
+    "Tipo": ["Planta", "Venenoso"],
+    "Fraqueza": ["Fogo", "Gelo", "Voador", "Psiquico"]
+  },
+  {
+    "Numero": 2,
+    "Nome": "Ivysaur",
+    "Imagem": "img/pokemon/002.png",
+    "Altura": "0.99 m",
+    "Peso": "13.0 kg",
+    "Tipo": ["Planta", "Venenoso"],
+    "Fraqueza": ["Fogo", "Gelo", "Voador", "Psiquico"]
+  },
+  {
+    "Numero": 3,
+    "Nome": "Venusaur",
+    "Imagem": "img/pokemon/003.png",
+    "Altura": "2.01 m",
+    "Peso": "100.0 kg",
+    "Tipo": ["Planta", "Venenoso"],
+    "Fraqueza": ["Fogo", "Gelo", "Voador", "Psiquico"]
+  },
+  {
+    "Numero": 4,
+    "Nome": "Charmander",
+    "Imagem": "img/pokemon/004.png",
+    "Altura": "0.61 m",
+    "Peso": "8.5 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 5,
+    "Nome": "Charmeleon",
+    "Imagem": "img/pokemon/005.png",
+    "Altura": "1.09 m",
+    "Peso": "19.0 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 6,
+    "Nome": "Charizard",
+    "Imagem": "img/pokemon/006.png",
+    "Altura": "1.70 m",
+    "Peso": "90.5 kg",
+    "Tipo": ["Fogo", "Voador"],
+    "Fraqueza": ["Agua", "Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 7,
+    "Nome": "Squirtle",
+    "Imagem": "img/pokemon/007.png",
+    "Altura": "0.51 m",
+    "Peso": "9.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 8,
+    "Nome": "Wartortle",
+    "Imagem": "img/pokemon/008.png",
+    "Altura": "0.99 m",
+    "Peso": "22.5 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 9,
+    "Nome": "Blastoise",
+    "Imagem": "img/pokemon/009.png",
+    "Altura": "1.60 m",
+    "Peso": "85.5 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 10,
+    "Nome": "Caterpie",
+    "Imagem": "img/pokemon/010.png",
+    "Altura": "0.30 m",
+    "Peso": "2.9 kg",
+    "Tipo": ["Inseto"],
+    "Fraqueza": ["Fogo", "Voador", "Pedra"]
+  },
+  {
+    "Numero": 11,
+    "Nome": "Metapod",
+    "Imagem": "img/pokemon/011.png",
+    "Altura": "0.71 m",
+    "Peso": "9.9 kg",
+    "Tipo": ["Inseto"],
+    "Fraqueza": ["Fogo", "Voador", "Pedra"]
+  },
+  {
+    "Numero": 12,
+    "Nome": "Butterfree",
+    "Imagem": "img/pokemon/012.png",
+    "Altura": "1.09 m",
+    "Peso": "32.0 kg",
+    "Tipo": ["Inseto", "Voador"],
+    "Fraqueza": ["Fogo", "Eletrico", "Gelo", "Voador", "Pedra"]
+  },
+  {
+    "Numero": 13,
+    "Nome": "Weedle",
+    "Imagem": "img/pokemon/013.png",
+    "Altura": "0.30 m",
+    "Peso": "3.2 kg",
+    "Tipo": ["Inseto", "Venenoso"],
+    "Fraqueza": ["Fogo", "Voador", "Psiquico", "Pedra"]
+  },
+  {
+    "Numero": 14,
+    "Nome": "Kakuna",
+    "Imagem": "img/pokemon/014.png",
+    "Altura": "0.61 m",
+    "Peso": "10.0 kg",
+    "Tipo": ["Inseto", "Venenoso"],
+    "Fraqueza": ["Fogo", "Voador", "Psiquico", "Pedra"]
+  },
+  {
+    "Numero": 15,
+    "Nome": "Beedrill",
+    "Imagem": "img/pokemon/015.png",
+    "Altura": "0.99 m",
+    "Peso": "29.5 kg",
+    "Tipo": ["Inseto", "Venenoso"],
+    "Fraqueza": ["Fogo", "Voador", "Psiquico", "Pedra"]
+  },
+  {
+    "Numero": 16,
+    "Nome": "Pidgey",
+    "Imagem": "img/pokemon/016.png",
+    "Altura": "0.30 m",
+    "Peso": "1.8 kg",
+    "Tipo": ["Normal", "Voador"],
+    "Fraqueza": ["Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 17,
+    "Nome": "Pidgeotto",
+    "Imagem": "img/pokemon/017.png",
+    "Altura": "1.09 m",
+    "Peso": "30.0 kg",
+    "Tipo": ["Normal", "Voador"],
+    "Fraqueza": ["Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 18,
+    "Nome": "Pidgeot",
+    "Imagem": "img/pokemon/018.png",
+    "Altura": "1.50 m",
+    "Peso": "39.5 kg",
+    "Tipo": ["Normal", "Voador"],
+    "Fraqueza": ["Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 19,
+    "Nome": "Rattata",
+    "Imagem": "img/pokemon/019.png",
+    "Altura": "0.30 m",
+    "Peso": "3.5 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 20,
+    "Nome": "Raticate",
+    "Imagem": "img/pokemon/020.png",
+    "Altura": "0.71 m",
+    "Peso": "18.5 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 21,
+    "Nome": "Spearow",
+    "Imagem": "img/pokemon/021.png",
+    "Altura": "0.30 m",
+    "Peso": "2.0 kg",
+    "Tipo": ["Normal", "Voador"],
+    "Fraqueza": ["Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 22,
+    "Nome": "Fearow",
+    "Imagem": "img/pokemon/022.png",
+    "Altura": "1.19 m",
+    "Peso": "38.0 kg",
+    "Tipo": ["Normal", "Voador"],
+    "Fraqueza": ["Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 23,
+    "Nome": "Ekans",
+    "Imagem": "img/pokemon/023.png",
+    "Altura": "2.01 m",
+    "Peso": "6.9 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 24,
+    "Nome": "Arbok",
+    "Imagem": "img/pokemon/024.png",
+    "Altura": "3.51 m",
+    "Peso": "65.0 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 25,
+    "Nome": "Pikachu",
+    "Imagem": "img/pokemon/025.png",
+    "Altura": "0.41 m",
+    "Peso": "6.0 kg",
+    "Tipo": ["Eletrico"],
+    "Fraqueza": ["Terra"]
+  },
+  {
+    "Numero": 26,
+    "Nome": "Raichu",
+    "Imagem": "img/pokemon/026.png",
+    "Altura": "0.79 m",
+    "Peso": "30.0 kg",
+    "Tipo": ["Eletrico"],
+    "Fraqueza": ["Terra"]
+  },
+  {
+    "Numero": 27,
+    "Nome": "Sandshrew",
+    "Imagem": "img/pokemon/027.png",
+    "Altura": "0.61 m",
+    "Peso": "12.0 kg",
+    "Tipo": ["Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo"]
+  },
+  {
+    "Numero": 28,
+    "Nome": "Sandslash",
+    "Imagem": "img/pokemon/028.png",
+    "Altura": "0.99 m",
+    "Peso": "29.5 kg",
+    "Tipo": ["Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo"]
+  },
+  {
+    "Numero": 29,
+    "Nome": "Nidoran ♀",
+    "Imagem": "img/pokemon/029.png",
+    "Altura": "0.41 m",
+    "Peso": "7.0 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 30,
+    "Nome": "Nidorina",
+    "Imagem": "img/pokemon/030.png",
+    "Altura": "0.79 m",
+    "Peso": "20.0 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 31,
+    "Nome": "Nidoqueen",
+    "Imagem": "img/pokemon/031.png",
+    "Altura": "1.30 m",
+    "Peso": "60.0 kg",
+    "Tipo": ["Venenoso", "Terra"],
+    "Fraqueza": ["Agua", "Gelo", "Terra", "Psiquico"]
+  },
+  {
+    "Numero": 32,
+    "Nome": "Nidoran ♂",
+    "Imagem": "img/pokemon/032.png",
+    "Altura": "0.51 m",
+    "Peso": "9.0 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 33,
+    "Nome": "Nidorino",
+    "Imagem": "img/pokemon/033.png",
+    "Altura": "0.89 m",
+    "Peso": "19.5 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 34,
+    "Nome": "Nidoking",
+    "Imagem": "img/pokemon/034.png",
+    "Altura": "1.40 m",
+    "Peso": "62.0 kg",
+    "Tipo": ["Venenoso", "Terra"],
+    "Fraqueza": ["Agua", "Gelo", "Terra", "Psiquico"]
+  },
+  {
+    "Numero": 35,
+    "Nome": "Clefairy",
+    "Imagem": "img/pokemon/035.png",
+    "Altura": "0.61 m",
+    "Peso": "7.5 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 36,
+    "Nome": "Clefable",
+    "Imagem": "img/pokemon/036.png",
+    "Altura": "1.30 m",
+    "Peso": "40.0 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 37,
+    "Nome": "Vulpix",
+    "Imagem": "img/pokemon/037.png",
+    "Altura": "0.61 m",
+    "Peso": "9.9 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 38,
+    "Nome": "Ninetales",
+    "Imagem": "img/pokemon/038.png",
+    "Altura": "1.09 m",
+    "Peso": "19.9 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 39,
+    "Nome": "Jigglypuff",
+    "Imagem": "img/pokemon/039.png",
+    "Altura": "0.51 m",
+    "Peso": "5.5 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 40,
+    "Nome": "Wigglytuff",
+    "Imagem": "img/pokemon/040.png",
+    "Altura": "0.99 m",
+    "Peso": "12.0 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 41,
+    "Nome": "Zubat",
+    "Imagem": "img/pokemon/041.png",
+    "Altura": "0.79 m",
+    "Peso": "7.5 kg",
+    "Tipo": ["Venenoso", "Voador"],
+    "Fraqueza": ["Eletrico", "Gelo", "Psiquico", "Pedra"]
+  },
+  {
+    "Numero": 42,
+    "Nome": "Golbat",
+    "Imagem": "img/pokemon/042.png",
+    "Altura": "1.60 m",
+    "Peso": "55.0 kg",
+    "Tipo": ["Venenoso", "Voador"],
+    "Fraqueza": ["Eletrico", "Gelo", "Psiquico", "Pedra"]
+  },
+  {
+    "Numero": 43,
+    "Nome": "Oddish",
+    "Imagem": "img/pokemon/043.png",
+    "Altura": "0.51 m",
+    "Peso": "5.4 kg",
+    "Tipo": ["Planta", "Venenoso"],
+    "Fraqueza": ["Fogo", "Gelo", "Voador", "Psiquico"]
+  },
+  {
+    "Numero": 44,
+    "Nome": "Gloom",
+    "Imagem": "img/pokemon/044.png",
+    "Altura": "0.79 m",
+    "Peso": "8.6 kg",
+    "Tipo": ["Planta", "Venenoso"],
+    "Fraqueza": ["Fogo", "Gelo", "Voador", "Psiquico"]
+  },
+  {
+    "Numero": 45,
+    "Nome": "Vileplume",
+    "Imagem": "img/pokemon/045.png",
+    "Altura": "1.19 m",
+    "Peso": "18.6 kg",
+    "Tipo": ["Planta", "Venenoso"],
+    "Fraqueza": ["Fogo", "Gelo", "Voador", "Psiquico"]
+  },
+  {
+    "Numero": 46,
+    "Nome": "Paras",
+    "Imagem": "img/pokemon/046.png",
+    "Altura": "0.30 m",
+    "Peso": "5.4 kg",
+    "Tipo": ["Inseto", "Planta"],
+    "Fraqueza": ["Fogo", "Gelo", "Venenoso", "Voador", "Inseto", "Pedra"]
+  },
+  {
+    "Numero": 47,
+    "Nome": "Parasect",
+    "Imagem": "img/pokemon/047.png",
+    "Altura": "0.99 m",
+    "Peso": "29.5 kg",
+    "Tipo": ["Inseto", "Planta"],
+    "Fraqueza": ["Fogo", "Gelo", "Venenoso", "Voador", "Inseto", "Pedra"]
+  },
+  {
+    "Numero": 48,
+    "Nome": "Venonat",
+    "Imagem": "img/pokemon/048.png",
+    "Altura": "0.99 m",
+    "Peso": "30.0 kg",
+    "Tipo": ["Inseto", "Venenoso"],
+    "Fraqueza": ["Fogo", "Voador", "Psiquico", "Pedra"]
+  },
+  {
+    "Numero": 49,
+    "Nome": "Venomoth",
+    "Imagem": "img/pokemon/049.png",
+    "Altura": "1.50 m",
+    "Peso": "12.5 kg",
+    "Tipo": ["Inseto", "Venenoso"],
+    "Fraqueza": ["Fogo", "Voador", "Psiquico", "Pedra"]
+  },
+  {
+    "Numero": 50,
+    "Nome": "Diglett",
+    "Imagem": "img/pokemon/050.png",
+    "Altura": "0.20 m",
+    "Peso": "0.8 kg",
+    "Tipo": ["Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo"]
+  },
+  {
+    "Numero": 51,
+    "Nome": "Dugtrio",
+    "Imagem": "img/pokemon/051.png",
+    "Altura": "0.71 m",
+    "Peso": "33.3 kg",
+    "Tipo": ["Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo"]
+  },
+  {
+    "Numero": 52,
+    "Nome": "Meowth",
+    "Imagem": "img/pokemon/052.png",
+    "Altura": "0.41 m",
+    "Peso": "4.2 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 53,
+    "Nome": "Persian",
+    "Imagem": "img/pokemon/053.png",
+    "Altura": "0.99 m",
+    "Peso": "32.0 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 54,
+    "Nome": "Psyduck",
+    "Imagem": "img/pokemon/054.png",
+    "Altura": "0.79 m",
+    "Peso": "19.6 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 55,
+    "Nome": "Golduck",
+    "Imagem": "img/pokemon/055.png",
+    "Altura": "1.70 m",
+    "Peso": "76.6 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 56,
+    "Nome": "Mankey",
+    "Imagem": "img/pokemon/056.png",
+    "Altura": "0.51 m",
+    "Peso": "28.0 kg",
+    "Tipo": ["Lutador"],
+    "Fraqueza": ["Voador", "Psiquico", "Fada"]
+  },
+  {
+    "Numero": 57,
+    "Nome": "Primeape",
+    "Imagem": "img/pokemon/057.png",
+    "Altura": "0.99 m",
+    "Peso": "32.0 kg",
+    "Tipo": ["Lutador"],
+    "Fraqueza": ["Voador", "Psiquico", "Fada"]
+  },
+  {
+    "Numero": 58,
+    "Nome": "Growlithe",
+    "Imagem": "img/pokemon/058.png",
+    "Altura": "0.71 m",
+    "Peso": "19.0 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 59,
+    "Nome": "Arcanine",
+    "Imagem": "img/pokemon/059.png",
+    "Altura": "1.91 m",
+    "Peso": "155.0 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 60,
+    "Nome": "Poliwag",
+    "Imagem": "img/pokemon/060.png",
+    "Altura": "0.61 m",
+    "Peso": "12.4 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 61,
+    "Nome": "Poliwhirl",
+    "Imagem": "img/pokemon/061.png",
+    "Altura": "0.99 m",
+    "Peso": "20.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 62,
+    "Nome": "Poliwrath",
+    "Imagem": "img/pokemon/062.png",
+    "Altura": "1.30 m",
+    "Peso": "54.0 kg",
+    "Tipo": ["Agua", "Lutador"],
+    "Fraqueza": ["Eletrico", "Planta", "Voador", "Psiquico", "Fada"]
+  },
+  {
+    "Numero": 63,
+    "Nome": "Abra",
+    "Imagem": "img/pokemon/063.png",
+    "Altura": "0.89 m",
+    "Peso": "19.5 kg",
+    "Tipo": ["Psiquico"],
+    "Fraqueza": ["Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 64,
+    "Nome": "Kadabra",
+    "Imagem": "img/pokemon/064.png",
+    "Altura": "1.30 m",
+    "Peso": "56.5 kg",
+    "Tipo": ["Psiquico"],
+    "Fraqueza": ["Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 65,
+    "Nome": "Alakazam",
+    "Imagem": "img/pokemon/065.png",
+    "Altura": "1.50 m",
+    "Peso": "48.0 kg",
+    "Tipo": ["Psiquico"],
+    "Fraqueza": ["Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 66,
+    "Nome": "Machop",
+    "Imagem": "img/pokemon/066.png",
+    "Altura": "0.79 m",
+    "Peso": "19.5 kg",
+    "Tipo": ["Lutador"],
+    "Fraqueza": ["Voador", "Psiquico", "Fada"]
+  },
+  {
+    "Numero": 67,
+    "Nome": "Machoke",
+    "Imagem": "img/pokemon/067.png",
+    "Altura": "1.50 m",
+    "Peso": "70.5 kg",
+    "Tipo": ["Lutador"],
+    "Fraqueza": ["Voador", "Psiquico", "Fada"]
+  },
+  {
+    "Numero": 68,
+    "Nome": "Machamp",
+    "Imagem": "img/pokemon/068.png",
+    "Altura": "1.60 m",
+    "Peso": "130.0 kg",
+    "Tipo": ["Lutador"],
+    "Fraqueza": ["Voador", "Psiquico", "Fada"]
+  },
+  {
+    "Numero": 69,
+    "Nome": "Bellsprout",
+    "Imagem": "img/pokemon/069.png",
+    "Altura": "0.71 m",
+    "Peso": "4.0 kg",
+    "Tipo": ["Planta", "Venenoso"],
+    "Fraqueza": ["Fogo", "Gelo", "Voador", "Psiquico"]
+  },
+  {
+    "Numero": 70,
+    "Nome": "Weepinbell",
+    "Imagem": "img/pokemon/070.png",
+    "Altura": "0.99 m",
+    "Peso": "6.4 kg",
+    "Tipo": ["Planta", "Venenoso"],
+    "Fraqueza": ["Fogo", "Gelo", "Voador", "Psiquico"]
+  },
+  {
+    "Numero": 71,
+    "Nome": "Victreebel",
+    "Imagem": "img/pokemon/071.png",
+    "Altura": "1.70 m",
+    "Peso": "15.5 kg",
+    "Tipo": ["Planta", "Venenoso"],
+    "Fraqueza": ["Fogo", "Gelo", "Voador", "Psiquico"]
+  },
+  {
+    "Numero": 72,
+    "Nome": "Tentacool",
+    "Imagem": "img/pokemon/072.png",
+    "Altura": "0.89 m",
+    "Peso": "45.5 kg",
+    "Tipo": ["Agua", "Venenoso"],
+    "Fraqueza": ["Eletrico", "Terra", "Psiquico"]
+  },
+  {
+    "Numero": 73,
+    "Nome": "Tentacruel",
+    "Imagem": "img/pokemon/073.png",
+    "Altura": "1.60 m",
+    "Peso": "55.0 kg",
+    "Tipo": ["Agua", "Venenoso"],
+    "Fraqueza": ["Eletrico", "Terra", "Psiquico"]
+  },
+  {
+    "Numero": 74,
+    "Nome": "Geodude",
+    "Imagem": "img/pokemon/074.png",
+    "Altura": "0.41 m",
+    "Peso": "20.0 kg",
+    "Tipo": ["Pedra", "Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo", "Lutador", "Terra", "Steel"]
+  },
+  {
+    "Numero": 75,
+    "Nome": "Graveler",
+    "Imagem": "img/pokemon/075.png",
+    "Altura": "0.99 m",
+    "Peso": "105.0 kg",
+    "Tipo": ["Pedra", "Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo", "Lutador", "Terra", "Steel"]
+  },
+  {
+    "Numero": 76,
+    "Nome": "Golem",
+    "Imagem": "img/pokemon/076.png",
+    "Altura": "1.40 m",
+    "Peso": "300.0 kg",
+    "Tipo": ["Pedra", "Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo", "Lutador", "Terra", "Steel"]
+  },
+  {
+    "Numero": 77,
+    "Nome": "Ponyta",
+    "Imagem": "img/pokemon/077.png",
+    "Altura": "0.99 m",
+    "Peso": "30.0 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 78,
+    "Nome": "RapNumeroash",
+    "Imagem": "img/pokemon/078.png",
+    "Altura": "1.70 m",
+    "Peso": "95.0 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 79,
+    "Nome": "Slowpoke",
+    "Imagem": "img/pokemon/079.png",
+    "Altura": "1.19 m",
+    "Peso": "36.0 kg",
+    "Tipo": ["Agua", "Psiquico"],
+    "Fraqueza": ["Eletrico", "Planta", "Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 80,
+    "Nome": "Slowbro",
+    "Imagem": "img/pokemon/080.png",
+    "Altura": "1.60 m",
+    "Peso": "78.5 kg",
+    "Tipo": ["Agua", "Psiquico"],
+    "Fraqueza": ["Eletrico", "Planta", "Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 81,
+    "Nome": "Magnemite",
+    "Imagem": "img/pokemon/081.png",
+    "Altura": "0.30 m",
+    "Peso": "6.0 kg",
+    "Tipo": ["Eletrico"],
+    "Fraqueza": ["Fogo", "Agua", "Terra"]
+  },
+  {
+    "Numero": 82,
+    "Nome": "Magneton",
+    "Imagem": "img/pokemon/082.png",
+    "Altura": "0.99 m",
+    "Peso": "60.0 kg",
+    "Tipo": ["Eletrico"],
+    "Fraqueza": ["Fogo", "Agua", "Terra"]
+  },
+  {
+    "Numero": 83,
+    "Nome": "Farfetch'd",
+    "Imagem": "img/pokemon/083.png",
+    "Altura": "0.79 m",
+    "Peso": "15.0 kg",
+    "Tipo": ["Normal", "Voador"],
+    "Fraqueza": ["Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 84,
+    "Nome": "Doduo",
+    "Imagem": "img/pokemon/084.png",
+    "Altura": "1.40 m",
+    "Peso": "39.2 kg",
+    "Tipo": ["Normal", "Voador"],
+    "Fraqueza": ["Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 85,
+    "Nome": "Dodrio",
+    "Imagem": "img/pokemon/085.png",
+    "Altura": "1.80 m",
+    "Peso": "85.2 kg",
+    "Tipo": ["Normal", "Voador"],
+    "Fraqueza": ["Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 86,
+    "Nome": "Seel",
+    "Imagem": "img/pokemon/086.png",
+    "Altura": "1.09 m",
+    "Peso": "90.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 87,
+    "Nome": "Dewgong",
+    "Imagem": "img/pokemon/087.png",
+    "Altura": "1.70 m",
+    "Peso": "120.0 kg",
+    "Tipo": ["Agua", "Gelo"],
+    "Fraqueza": ["Eletrico", "Planta", "Lutador", "Pedra"]
+  },
+  {
+    "Numero": 88,
+    "Nome": "Grimer",
+    "Imagem": "img/pokemon/088.png",
+    "Altura": "0.89 m",
+    "Peso": "30.0 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 89,
+    "Nome": "Muk",
+    "Imagem": "img/pokemon/089.png",
+    "Altura": "1.19 m",
+    "Peso": "30.0 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 90,
+    "Nome": "Shellder",
+    "Imagem": "img/pokemon/090.png",
+    "Altura": "0.30 m",
+    "Peso": "4.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 91,
+    "Nome": "Cloyster",
+    "Imagem": "img/pokemon/091.png",
+    "Altura": "1.50 m",
+    "Peso": "132.5 kg",
+    "Tipo": ["Agua", "Gelo"],
+    "Fraqueza": ["Eletrico", "Planta", "Lutador", "Pedra"]
+  },
+  {
+    "Numero": 92,
+    "Nome": "Gastly",
+    "Imagem": "img/pokemon/092.png",
+    "Altura": "1.30 m",
+    "Peso": "0.1 kg",
+    "Tipo": ["Fantasma", "Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 93,
+    "Nome": "Haunter",
+    "Imagem": "img/pokemon/093.png",
+    "Altura": "1.60 m",
+    "Peso": "0.1 kg",
+    "Tipo": ["Fantasma", "Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 94,
+    "Nome": "Gengar",
+    "Imagem": "img/pokemon/094.png",
+    "Altura": "1.50 m",
+    "Peso": "40.5 kg",
+    "Tipo": ["Fantasma", "Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 95,
+    "Nome": "Onix",
+    "Imagem": "img/pokemon/095.png",
+    "Altura": "8.79 m",
+    "Peso": "210.0 kg",
+    "Tipo": ["Pedra", "Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo", "Lutador", "Terra", "Steel"]
+  },
+  {
+    "Numero": 96,
+    "Nome": "Drowzee",
+    "Imagem": "img/pokemon/096.png",
+    "Altura": "0.99 m",
+    "Peso": "32.4 kg",
+    "Tipo": ["Psiquico"],
+    "Fraqueza": ["Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 97,
+    "Nome": "Hypno",
+    "Imagem": "img/pokemon/097.png",
+    "Altura": "1.60 m",
+    "Peso": "75.6 kg",
+    "Tipo": ["Psiquico"],
+    "Fraqueza": ["Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 98,
+    "Nome": "Krabby",
+    "Imagem": "img/pokemon/098.png",
+    "Altura": "0.41 m",
+    "Peso": "6.5 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 99,
+    "Nome": "Kingler",
+    "Imagem": "img/pokemon/099.png",
+    "Altura": "1.30 m",
+    "Peso": "60.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 100,
+    "Nome": "Voltorb",
+    "Imagem": "img/pokemon/100.png",
+    "Altura": "0.51 m",
+    "Peso": "10.4 kg",
+    "Tipo": ["Eletrico"],
+    "Fraqueza": ["Terra"]
+  },
+  {
+    "Numero": 101,
+    "Nome": "Electrode",
+    "Imagem": "img/pokemon/101.png",
+    "Altura": "1.19 m",
+    "Peso": "66.6 kg",
+    "Tipo": ["Eletrico"],
+    "Fraqueza": ["Terra"]
+  },
+  {
+    "Numero": 102,
+    "Nome": "Exeggcute",
+    "Imagem": "img/pokemon/102.png",
+    "Altura": "0.41 m",
+    "Peso": "2.5 kg",
+    "Tipo": ["Planta", "Psiquico"],
+    "Fraqueza": ["Fogo", "Gelo", "Venenoso", "Voador", "Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 103,
+    "Nome": "Exeggutor",
+    "Imagem": "img/pokemon/103.png",
+    "Altura": "2.01 m",
+    "Peso": "120.0 kg",
+    "Tipo": ["Planta", "Psiquico"],
+    "Fraqueza": ["Fogo", "Gelo", "Venenoso", "Voador", "Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 104,
+    "Nome": "Cubone",
+    "Imagem": "img/pokemon/104.png",
+    "Altura": "0.41 m",
+    "Peso": "6.5 kg",
+    "Tipo": ["Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo"]
+  },
+  {
+    "Numero": 105,
+    "Nome": "Marowak",
+    "Imagem": "img/pokemon/105.png",
+    "Altura": "0.99 m",
+    "Peso": "45.0 kg",
+    "Tipo": ["Terra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo"]
+  },
+  {
+    "Numero": 106,
+    "Nome": "Hitmonlee",
+    "Imagem": "img/pokemon/106.png",
+    "Altura": "1.50 m",
+    "Peso": "49.8 kg",
+    "Tipo": ["Lutador"],
+    "Fraqueza": ["Voador", "Psiquico", "Fada"]
+  },
+  {
+    "Numero": 107,
+    "Nome": "Hitmonchan",
+    "Imagem": "img/pokemon/107.png",
+    "Altura": "1.40 m",
+    "Peso": "50.2 kg",
+    "Tipo": ["Lutador"],
+    "Fraqueza": ["Voador", "Psiquico", "Fada"]
+  },
+  {
+    "Numero": 108,
+    "Nome": "Lickitung",
+    "Imagem": "img/pokemon/108.png",
+    "Altura": "1.19 m",
+    "Peso": "65.5 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 109,
+    "Nome": "Koffing",
+    "Imagem": "img/pokemon/109.png",
+    "Altura": "0.61 m",
+    "Peso": "1.0 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 110,
+    "Nome": "Weezing",
+    "Imagem": "img/pokemon/110.png",
+    "Altura": "1.19 m",
+    "Peso": "9.5 kg",
+    "Tipo": ["Venenoso"],
+    "Fraqueza": ["Terra", "Psiquico"]
+  },
+  {
+    "Numero": 111,
+    "Nome": "Rhyhorn",
+    "Imagem": "img/pokemon/111.png",
+    "Altura": "0.99 m",
+    "Peso": "115.0 kg",
+    "Tipo": ["Terra", "Pedra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo", "Lutador", "Terra", "Steel"]
+  },
+  {
+    "Numero": 112,
+    "Nome": "Rhydon",
+    "Imagem": "img/pokemon/112.png",
+    "Altura": "1.91 m",
+    "Peso": "120.0 kg",
+    "Tipo": ["Terra", "Pedra"],
+    "Fraqueza": ["Agua", "Planta", "Gelo", "Lutador", "Terra", "Steel"]
+  },
+  {
+    "Numero": 113,
+    "Nome": "Chansey",
+    "Imagem": "img/pokemon/113.png",
+    "Altura": "1.09 m",
+    "Peso": "34.6 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 114,
+    "Nome": "Tangela",
+    "Imagem": "img/pokemon/114.png",
+    "Altura": "0.99 m",
+    "Peso": "35.0 kg",
+    "Tipo": ["Planta"],
+    "Fraqueza": ["Fogo", "Gelo", "Venenoso", "Voador", "Inseto"]
+  },
+  {
+    "Numero": 115,
+    "Nome": "Kangaskhan",
+    "Imagem": "img/pokemon/115.png",
+    "Altura": "2.21 m",
+    "Peso": "80.0 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 116,
+    "Nome": "Horsea",
+    "Imagem": "img/pokemon/116.png",
+    "Altura": "0.41 m",
+    "Peso": "8.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 117,
+    "Nome": "Seadra",
+    "Imagem": "img/pokemon/117.png",
+    "Altura": "1.19 m",
+    "Peso": "25.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 118,
+    "Nome": "Goldeen",
+    "Imagem": "img/pokemon/118.png",
+    "Altura": "0.61 m",
+    "Peso": "15.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 119,
+    "Nome": "Seaking",
+    "Imagem": "img/pokemon/119.png",
+    "Altura": "1.30 m",
+    "Peso": "39.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 120,
+    "Nome": "Staryu",
+    "Imagem": "img/pokemon/120.png",
+    "Altura": "0.79 m",
+    "Peso": "34.5 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 121,
+    "Nome": "Starmie",
+    "Imagem": "img/pokemon/121.png",
+    "Altura": "1.09 m",
+    "Peso": "80.0 kg",
+    "Tipo": ["Agua", "Psiquico"],
+    "Fraqueza": ["Eletrico", "Planta", "Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 122,
+    "Nome": "Mr. Mime",
+    "Imagem": "img/pokemon/122.png",
+    "Altura": "1.30 m",
+    "Peso": "54.5 kg",
+    "Tipo": ["Psiquico"],
+    "Fraqueza": ["Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 123,
+    "Nome": "Scyther",
+    "Imagem": "img/pokemon/123.png",
+    "Altura": "1.50 m",
+    "Peso": "56.0 kg",
+    "Tipo": ["Inseto", "Voador"],
+    "Fraqueza": ["Fogo", "Eletrico", "Gelo", "Voador", "Pedra"]
+  },
+  {
+    "Numero": 124,
+    "Nome": "Jynx",
+    "Imagem": "img/pokemon/124.png",
+    "Altura": "1.40 m",
+    "Peso": "40.6 kg",
+    "Tipo": ["Gelo", "Psiquico"],
+    "Fraqueza": ["Fogo", "Inseto", "Pedra", "Fantasma", "Noturno", "Steel"]
+  },
+  {
+    "Numero": 125,
+    "Nome": "Electabuzz",
+    "Imagem": "img/pokemon/125.png",
+    "Altura": "1.09 m",
+    "Peso": "30.0 kg",
+    "Tipo": ["Eletrico"],
+    "Fraqueza": ["Terra"]
+  },
+  {
+    "Numero": 126,
+    "Nome": "Magmar",
+    "Imagem": "img/pokemon/126.png",
+    "Altura": "1.30 m",
+    "Peso": "44.5 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 127,
+    "Nome": "Pinsir",
+    "Imagem": "img/pokemon/127.png",
+    "Altura": "1.50 m",
+    "Peso": "55.0 kg",
+    "Tipo": ["Inseto"],
+    "Fraqueza": ["Fogo", "Voador", "Pedra"]
+  },
+  {
+    "Numero": 128,
+    "Nome": "Tauros",
+    "Imagem": "img/pokemon/128.png",
+    "Altura": "1.40 m",
+    "Peso": "88.4 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 129,
+    "Nome": "Magikarp",
+    "Imagem": "img/pokemon/129.png",
+    "Altura": "0.89 m",
+    "Peso": "10.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 130,
+    "Nome": "Gyarados",
+    "Imagem": "img/pokemon/130.png",
+    "Altura": "6.50 m",
+    "Peso": "235.0 kg",
+    "Tipo": ["Agua", "Voador"],
+    "Fraqueza": ["Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 131,
+    "Nome": "Lapras",
+    "Imagem": "img/pokemon/131.png",
+    "Altura": "2.49 m",
+    "Peso": "220.0 kg",
+    "Tipo": ["Agua", "Gelo"],
+    "Fraqueza": ["Eletrico", "Planta", "Lutador", "Pedra"]
+  },
+  {
+    "Numero": 132,
+    "Nome": "Ditto",
+    "Imagem": "img/pokemon/132.png",
+    "Altura": "0.30 m",
+    "Peso": "4.0 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 133,
+    "Nome": "Eevee",
+    "Imagem": "img/pokemon/133.png",
+    "Altura": "0.30 m",
+    "Peso": "6.5 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 134,
+    "Nome": "Vaporeon",
+    "Imagem": "img/pokemon/134.png",
+    "Altura": "0.99 m",
+    "Peso": "29.0 kg",
+    "Tipo": ["Agua"],
+    "Fraqueza": ["Eletrico", "Planta"]
+  },
+  {
+    "Numero": 135,
+    "Nome": "Jolteon",
+    "Imagem": "img/pokemon/135.png",
+    "Altura": "0.79 m",
+    "Peso": "24.5 kg",
+    "Tipo": ["Eletrico"],
+    "Fraqueza": ["Terra"]
+  },
+  {
+    "Numero": 136,
+    "Nome": "Flareon",
+    "Imagem": "img/pokemon/136.png",
+    "Altura": "0.89 m",
+    "Peso": "25.0 kg",
+    "Tipo": ["Fogo"],
+    "Fraqueza": ["Agua", "Terra", "Pedra"]
+  },
+  {
+    "Numero": 137,
+    "Nome": "Porygon",
+    "Imagem": "img/pokemon/137.png",
+    "Altura": "0.79 m",
+    "Peso": "36.5 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 138,
+    "Nome": "Omanyte",
+    "Imagem": "img/pokemon/138.png",
+    "Altura": "0.41 m",
+    "Peso": "7.5 kg",
+    "Tipo": ["Pedra", "Agua"],
+    "Fraqueza": ["Eletrico", "Planta", "Lutador", "Terra"]
+  },
+  {
+    "Numero": 139,
+    "Nome": "Omastar",
+    "Imagem": "img/pokemon/139.png",
+    "Altura": "0.99 m",
+    "Peso": "35.0 kg",
+    "Tipo": ["Pedra", "Agua"],
+    "Fraqueza": ["Eletrico", "Planta", "Lutador", "Terra"]
+  },
+  {
+    "Numero": 140,
+    "Nome": "Kabuto",
+    "Imagem": "img/pokemon/140.png",
+    "Altura": "0.51 m",
+    "Peso": "11.5 kg",
+    "Tipo": ["Pedra", "Agua"],
+    "Fraqueza": ["Eletrico", "Planta", "Lutador", "Terra"]
+  },
+  {
+    "Numero": 141,
+    "Nome": "Kabutops",
+    "Imagem": "img/pokemon/141.png",
+    "Altura": "1.30 m",
+    "Peso": "40.5 kg",
+    "Tipo": ["Pedra", "Agua"],
+    "Fraqueza": ["Eletrico", "Planta", "Lutador", "Terra"]
+  },
+  {
+    "Numero": 142,
+    "Nome": "Aerodactyl",
+    "Imagem": "img/pokemon/142.png",
+    "Altura": "1.80 m",
+    "Peso": "59.0 kg",
+    "Tipo": ["Pedra", "Voador"],
+    "Fraqueza": ["Agua", "Eletrico", "Gelo", "Pedra", "Steel"]
+  },
+  {
+    "Numero": 143,
+    "Nome": "Snorlax",
+    "Imagem": "img/pokemon/143.png",
+    "Altura": "2.11 m",
+    "Peso": "460.0 kg",
+    "Tipo": ["Normal"],
+    "Fraqueza": ["Lutador"]
+  },
+  {
+    "Numero": 144,
+    "Nome": "Articuno",
+    "Imagem": "img/pokemon/144.png",
+    "Altura": "1.70 m",
+    "Peso": "55.4 kg",
+    "Tipo": ["Gelo", "Voador"],
+    "Fraqueza": ["Fogo", "Eletrico", "Pedra", "Steel"]
+  },
+  {
+    "Numero": 145,
+    "Nome": "Zapdos",
+    "Imagem": "img/pokemon/145.png",
+    "Altura": "1.60 m",
+    "Peso": "52.6 kg",
+    "Tipo": ["Eletrico", "Voador"],
+    "Fraqueza": ["Gelo", "Pedra"]
+  },
+  {
+    "Numero": 146,
+    "Nome": "Moltres",
+    "Imagem": "img/pokemon/146.png",
+    "Altura": "2.01 m",
+    "Peso": "60.0 kg",
+    "Tipo": ["Fogo", "Voador"],
+    "Fraqueza": ["Agua", "Eletrico", "Pedra"]
+  },
+  {
+    "Numero": 147,
+    "Nome": "Dratini",
+    "Imagem": "img/pokemon/147.png",
+    "Altura": "1.80 m",
+    "Peso": "3.3 kg",
+    "Tipo": ["Dragao"],
+    "Fraqueza": ["Gelo", "Dragao", "Fada"]
+  },
+  {
+    "Numero": 148,
+    "Nome": "Dragonair",
+    "Imagem": "img/pokemon/148.png",
+    "Altura": "3.99 m",
+    "Peso": "16.5 kg",
+    "Tipo": ["Dragao"],
+    "Fraqueza": ["Gelo", "Dragao", "Fada"]
+  },
+  {
+    "Numero": 149,
+    "Nome": "Dragonite",
+    "Imagem": "img/pokemon/149.png",
+    "Altura": "2.21 m",
+    "Peso": "210.0 kg",
+    "Tipo": ["Dragao", "Voador"],
+    "Fraqueza": ["Gelo", "Pedra", "Dragao", "Fada"]
+  },
+  {
+    "Numero": 150,
+    "Nome": "Mewtwo",
+    "Imagem": "img/pokemon/150.png",
+    "Altura": "2.01 m",
+    "Peso": "122.0 kg",
+    "Tipo": ["Psiquico"],
+    "Fraqueza": ["Inseto", "Fantasma", "Noturno"]
+  },
+  {
+    "Numero": 151,
+    "Nome": "Mew",
+    "Imagem": "img/pokemon/151.png",
+    "Altura": "0.41 m",
+    "Peso": "4.0 kg",
+    "Tipo": ["Psiquico"],
+    "Fraqueza": ["Inseto", "Fantasma", "Noturno"]
+  }
+]

@@ -34,7 +34,7 @@ namespace Pokedex.Pages
 
         public void PopularLista(){
             
-            using (StreamReader leitor = new StreamReader(@"Dados\dados.json"))
+            using (StreamReader leitor = new StreamReader(@"Dados\Pokemon.json"))
             {
                 string dados = leitor.ReadToEnd();
                 HttpContext.Session.SetString("Pokemons", dados);
